@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    
+    <div class="calculator">
+      <input type="text" id="display" disabled>
+      <div class="buttons">
+        <button onclick="clearDisplay()" style="border-radius: 50%; background-color: aliceblue; ">AC</button>
+        <button onclick="clearDisplay()"style="border-radius: 50%; background-color: aliceblue; ">C</button>
+        <button onclick="appendToDisplay('%')"style="border-radius: 50%; background-color: aliceblue; ">%</button>
+        <button onclick="appendToDisplay('/')"style="border-radius: 50%; background-color: yellow ; ">/</button>
+        <button onclick="appendToDisplay('7')"style="border-radius: 50%; background-color: wheat; ">7</button>
+        <button onclick="appendToDisplay('8')"style="border-radius: 50%; background-color: wheat; ">8</button>
+        <button onclick="appendToDisplay('9')"style="border-radius: 50%; background-color: wheat; ">9</button>
+        <button onclick="appendToDisplay('*')"style="border-radius: 50%; background-color: yellow;  ">*</button>
+        <button onclick="appendToDisplay('4')"style="border-radius: 50%; background-color: wheat; ">4</button>
+        <button onclick="appendToDisplay('5')"style="border-radius: 50%; background-color: wheat; ">5</button>
+        <button onclick="appendToDisplay('6')"style="border-radius: 50%; background-color: wheat; ">6</button>
+        <button onclick="appendToDisplay('-')"style="border-radius: 50%; background-color: yellow; ">-</button>
+        <button onclick="appendToDisplay('1')"style="border-radius: 50%; background-color: wheat; ">1</button>
+        <button onclick="appendToDisplay('2')"style="border-radius: 50%; background-color: wheat; ">2</button>
+        <button onclick="appendToDisplay('3')"style="border-radius: 50%; background-color: wheat; ">3</button>
+        <button onclick="appendToDisplay('+')"style="border-radius: 50%; background-color: yellow; ">+</button>
+        <button onclick="appendToDisplay('0')"style="border-radius: 50%; background-color: wheat; ">0</button>
+        <button onclick="appendToDisplay('+')"style="border-radius: 50%; background-color: wheat; ">.</button>
+
+        <button onclick="calculate()" style="width: 200%; background-color: orange;">=</button>
+        
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
